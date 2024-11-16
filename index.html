@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="flex justify-center items-center bg-stone-300 py-8 h-screen">
+      <div
+        class="flex justify-center items-center bg-stone-50 mx-12 my-12 py-4 pl-8 rounded-md h-80"
+      >
+        <div class="flex flex-col items-start gap-2 p-1 h-64">
+          <div class="mb-0 font-bold h2">Log In</div>
+          <p class="mt-0 max-w-xs text-xs">
+            Log in to your account to upload or download pictures, videos or
+            music
+          </p>
+          <input
+            placeholder="enter your email address"
+            type="text"
+            class="border rounded-md h-10 placeholder:text-sm focus:outline-none"
+          />
+          <div class="flex justify-center items-center gap-16">
+            <p class="text-xs">Forgot Password?</p>
+
+            <button
+              class="bg-cyan-700 p-2 border rounded-md text-white text-xs hover:scale-105 duration-200"
+            >
+              Next <span class="ml-2">&rarr;</span>
+            </button>
+          </div>
+
+          <div class="flex flex-col items-center border-y-gray-300 border-t-2">
+            <p class="my-4 text-center text-xs">Or log in with</p>
+
+            <div class="flex gap-6">
+              <div
+                class="flex justify-center items-center gap-2 hover:bg-blue-900 p-4 border rounded-sm w-24 h-8 hover:text-white duration-100"
+              >
+                <img
+                  src="Week-7_Assignment_Starter/images/facebook.png"
+                  alt=""
+                  class="h-4"
+                />
+                <p class="text-xs">Facebook</p>
+              </div>
+              <div
+                class="flex justify-center items-center gap-2 hover:bg-red-100 p-4 border rounded-sm w-24 h-8 hover:text-white"
+              >
+                <img
+                  src="Week-7_Assignment_Starter/images/google.png"
+                  alt=""
+                  class="h-4"
+                />
+                <p class="text-xs">Google</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="inline-block relative">
+          <img
+            src="Week-7_Assignment_Starter/images/image.jpg"
+            alt=""
+            class="h-80"
+          />
+          <button
+            class="top-1 right-1 absolute bg-white p-1 rounded-full text-gray-700 text-sm"
+          >
+            &times;
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
